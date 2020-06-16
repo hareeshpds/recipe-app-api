@@ -4,4 +4,4 @@ from app.calc import add
 
 class CalcTests(TestCase):
 	def test_add_numbers(self):
-		self.asserEqual(add(3,4),7)
+		self.assertEqual(add(3,4),7)
